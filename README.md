@@ -1,5 +1,13 @@
 # LogDrift
 
+[![GitHub release](https://img.shields.io/github/v/release/adermanbuilds/logdrift)](https://github.com/adermanbuilds/logdrift/releases)
+[![Go Report Card](https://goreportcard.com/badge/github.com/adermanbuilds/logdrift)](https://goreportcard.com/report/github.com/adermanbuilds/logdrift)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Fast, lightweight log anomaly detection for the command line — single binary, no servers.
+
+![LogDrift demo](logdrift.gif)
+
 Fast, lightweight log anomaly detection for the command line — single binary, no servers.
 
 ## Features
@@ -26,7 +34,31 @@ Fast, lightweight log anomaly detection for the command line — single binary, 
 
 - Go 1.21+ (recommended)
 
-### Install (module-aware)
+### Installation
+
+#### Download Binary
+
+Download the latest release for your platform:
+- [macOS (Intel)](https://github.com/adermanbuilds/logdrift/releases/latest/download/logdrift-darwin-amd64)
+- [macOS (Apple Silicon)](https://github.com/adermanbuilds/logdrift/releases/latest/download/logdrift-darwin-arm64)
+- [Linux (x64)](https://github.com/adermanbuilds/logdrift/releases/latest/download/logdrift-linux-amd64)
+- [Windows (x64)](https://github.com/adermanbuilds/logdrift/releases/latest/download/logdrift-windows-amd64.exe)
+
+#### Install via Go
+
+```bash
+go install github.com/adermanbuilds/logdrift@latest
+```
+
+#### Build from Source
+
+```bash
+git clone https://github.com/adermanbuilds/logdrift.git
+cd logdrift
+make build
+```
+
+#### Alternatively, for module-aware builds without make
 
 1. Initialize modules (only once per repo):
 
@@ -147,6 +179,7 @@ Rate:            10613 lines/sec
 - Improved sampling/learning for anomaly scoring
 
 ### Development tips
+
 - Run linters and tests:
 
 ```bash
@@ -159,9 +192,11 @@ go test ./...
 ---
 
 ## License
+
 MIT — use freely for personal or commercial projects.
 
 ---
 
 ## Contact / repo
+
 [LogDrift](https://github.com/adermanbuilds/logdrift)
