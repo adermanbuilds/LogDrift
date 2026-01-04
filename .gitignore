@@ -1,0 +1,14 @@
+# Ignore everything
+/*
+
+# Allow these specific files
+!.gitignore
+!.gitattributes
+!/LICENSE
+!/Makefile
+!/go.mod
+!/cli.go
+!/config.go
+!/main.go
+!/README.md
+!/test_logs.sh
