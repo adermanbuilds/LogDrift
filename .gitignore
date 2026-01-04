@@ -3,6 +3,7 @@
 
 # Allow these specific files
 !.gitignore
+!logdrift.gif
 !.gitattributes
 !/LICENSE
 !/Makefile
