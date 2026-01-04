@@ -6,9 +6,7 @@
 
 Fast, lightweight log anomaly detection for the command line — single binary, no servers.
 
-![LogDrift demo](logdrift.gif)
-
-Fast, lightweight log anomaly detection for the command line — single binary, no servers.
+![LogDrift demo](./logdrift.gif)
 
 ## Features
 
